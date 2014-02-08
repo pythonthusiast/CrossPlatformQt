@@ -3,9 +3,12 @@
 
 #python
 *.py[ocd]
+
 # system dependent Qt files
 Makefile
 *.o
+*.moc
+moc_*.*
 
 # User-specific files
 *.suo
