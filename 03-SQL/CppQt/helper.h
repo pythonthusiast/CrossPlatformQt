@@ -9,6 +9,7 @@ class Helper : public QObject
 public:
     explicit Helper(QObject *parent = 0);
     static bool dbConnect();
+    static QString computeHash(QString original);
     
 signals:
     

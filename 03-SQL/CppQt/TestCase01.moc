@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'TestCase01.cpp'
 **
-** Created: Fri Feb 7 17:29:52 2014
+** Created: Thu Feb 13 16:05:15 2014
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.1)
 **
 ** WARNING! All changes made in this file will be lost!
@@ -22,7 +22,7 @@ static const uint qt_meta_data_TestCase01[] = {
        6,       // revision
        0,       // classname
        0,    0, // classinfo
-       2,   14, // methods
+       3,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -32,12 +32,14 @@ static const uint qt_meta_data_TestCase01[] = {
  // slots: signature, parameters, type, tag, flags
       12,   11,   11,   11, 0x08,
       27,   11,   11,   11, 0x08,
+      37,   11,   11,   11, 0x08,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_TestCase01[] = {
-    "TestCase01\0\0initTestCase()\0testAuth()\0"
+    "TestCase01\0\0initTestCase()\0testMd5()\0"
+    "testAuth()\0"
 };
 
 void TestCase01::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
@@ -47,7 +49,8 @@ void TestCase01::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         TestCase01 *_t = static_cast<TestCase01 *>(_o);
         switch (_id) {
         case 0: _t->initTestCase(); break;
-        case 1: _t->testAuth(); break;
+        case 1: _t->testMd5(); break;
+        case 2: _t->testAuth(); break;
         default: ;
         }
     }
@@ -86,9 +89,9 @@ int TestCase01::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 2)
+        if (_id < 3)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 2;
+        _id -= 3;
     }
     return _id;
 }

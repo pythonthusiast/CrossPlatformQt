@@ -15,3 +15,9 @@ bool Helper::dbConnect()
     db.setPassword("adminadmin");
     return db.open();
 }
+
+QString Helper::computeHash(QString original)
+{
+
+    return QString(QCryptographicHash::hash(original.toUtf8(),QCryptographicHash::Md5).toHex());
+}
