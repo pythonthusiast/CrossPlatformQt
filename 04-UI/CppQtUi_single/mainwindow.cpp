@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include <QMessageBox>
 #include <QDesktopWidget>
+#include <QMessageBox>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -42,7 +43,7 @@ void MainWindow::on_action_About_triggered()
     QMessageBox msgBox(this);
     msgBox.setWindowTitle(tr("Pythonthusiast"));
     msgBox.setText(tr("Programmer : Eko SW\nGod speak in Python.. and then C++.. :D"));
-    msgBox.setStandardButtons(QMessageBox::Ok);
+    msgBox.setStandardButtons(QMessageBox::Ok);    
     msgBox.exec();
 
 }
