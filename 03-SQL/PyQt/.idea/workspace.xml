@@ -23,11 +23,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test_features01.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="test_features01.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_features01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="41" selection-start="16" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-              <folding />
+            <state line="8" column="41" selection-start="211" selection-end="211" vertical-scroll-proportion="0.31578946" vertical-offset="0" max-vertical-offset="405">
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,16 +37,16 @@
       <file leaf-file-name="auth.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="25" selection-start="0" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+            <state line="0" column="25" selection-start="0" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helper.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="helper.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/helper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="25" selection-start="52" selection-end="52" vertical-scroll-proportion="0.024320457" vertical-offset="0" max-vertical-offset="699">
+            <state line="3" column="16" selection-start="70" selection-end="70" vertical-scroll-proportion="-1.8" vertical-offset="0" max-vertical-offset="495">
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -70,10 +72,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1312" />
-    <option name="height" value="784" />
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="742" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -101,6 +102,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -111,7 +113,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -119,7 +120,7 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistory" value="" />
-    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -359,18 +360,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1312" height="784" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18364197" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18359375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39448276" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39375928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -402,8 +403,35 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test_features01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="19" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="459">
+        <state line="1" column="41" selection-start="16" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="405">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="25" selection-start="0" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="25" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="495">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_features01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="19" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="459">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -426,7 +454,9 @@
     <entry file="file://$PROJECT_DIR$/test_features01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -449,7 +479,9 @@
     <entry file="file://$PROJECT_DIR$/test_features01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="19" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="459">
-          <folding />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -472,43 +504,27 @@
     <entry file="file://$PROJECT_DIR$/test_features01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="22" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="289">
-          <folding />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_features01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="22" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="289">
-          <folding />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_features01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-762174762/PyQt4/QtCore/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="4" selection-start="5025" selection-end="5025" vertical-scroll-proportion="0.3773087" vertical-offset="2543" max-vertical-offset="8313" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-762174762/PyQt4/QtSql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="8" selection-start="2842" selection-end="2842" vertical-scroll-proportion="0.33333334" vertical-offset="1323" max-vertical-offset="31994" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/unittest/loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="37" selection-start="2421" selection-end="2426" vertical-scroll-proportion="0.46701846" vertical-offset="809" max-vertical-offset="5321" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_features01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="41" selection-start="16" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -521,9 +537,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/helper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="25" selection-start="52" selection-end="52" vertical-scroll-proportion="0.024320457" vertical-offset="0" max-vertical-offset="699">
+        <state line="3" column="16" selection-start="70" selection-end="70" vertical-scroll-proportion="-1.8" vertical-offset="0" max-vertical-offset="495">
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_features01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="41" selection-start="211" selection-end="211" vertical-scroll-proportion="0.31578946" vertical-offset="0" max-vertical-offset="405">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
