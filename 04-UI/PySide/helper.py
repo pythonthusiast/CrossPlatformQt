@@ -1,5 +1,6 @@
-from PyQt4.QtCore import *
-from PyQt4.QtSql import *
+from PySide.QtCore import QFile, qDebug, QCryptographicHash
+from PySide.QtSql import QSqlDatabase, QSqlQuery
+
 
 def dbConnect():
     db = QSqlDatabase.addDatabase("QSQLITE")

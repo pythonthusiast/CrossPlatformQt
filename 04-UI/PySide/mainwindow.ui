@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Pythonthusiast</string>
+   <string>MainWindow</string>
   </property>
   <property name="unifiedTitleAndToolBarOnMac">
    <bool>true</bool>

@@ -1,8 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'logindialog.ui'
 **
-** Created: Mon Feb 17 06:10:31 2014
-**      by: Qt User Interface Compiler version 4.8.1
+** Created by: Qt User Interface Compiler version 5.2.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -11,14 +10,14 @@
 #define UI_LOGINDIALOG_H
 
 #include <QtCore/QVariant>
-#include <QtGui/QAction>
-#include <QtGui/QApplication>
-#include <QtGui/QButtonGroup>
-#include <QtGui/QDialog>
-#include <QtGui/QDialogButtonBox>
-#include <QtGui/QHeaderView>
-#include <QtGui/QLabel>
-#include <QtGui/QLineEdit>
+#include <QtWidgets/QAction>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QButtonGroup>
+#include <QtWidgets/QDialog>
+#include <QtWidgets/QDialogButtonBox>
+#include <QtWidgets/QHeaderView>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QLineEdit>
 
 QT_BEGIN_NAMESPACE
 
@@ -34,25 +33,25 @@ public:
     void setupUi(QDialog *LoginDialog)
     {
         if (LoginDialog->objectName().isEmpty())
-            LoginDialog->setObjectName(QString::fromUtf8("LoginDialog"));
+            LoginDialog->setObjectName(QStringLiteral("LoginDialog"));
         LoginDialog->resize(266, 139);
         buttonBox = new QDialogButtonBox(LoginDialog);
-        buttonBox->setObjectName(QString::fromUtf8("buttonBox"));
+        buttonBox->setObjectName(QStringLiteral("buttonBox"));
         buttonBox->setGeometry(QRect(90, 100, 161, 32));
         buttonBox->setOrientation(Qt::Horizontal);
         buttonBox->setStandardButtons(QDialogButtonBox::Cancel|QDialogButtonBox::Ok);
         label = new QLabel(LoginDialog);
-        label->setObjectName(QString::fromUtf8("label"));
+        label->setObjectName(QStringLiteral("label"));
         label->setGeometry(QRect(10, 20, 61, 16));
         label_2 = new QLabel(LoginDialog);
-        label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2->setObjectName(QStringLiteral("label_2"));
         label_2->setGeometry(QRect(10, 60, 61, 16));
         txtPassword = new QLineEdit(LoginDialog);
-        txtPassword->setObjectName(QString::fromUtf8("txtPassword"));
+        txtPassword->setObjectName(QStringLiteral("txtPassword"));
         txtPassword->setGeometry(QRect(80, 60, 161, 23));
         txtPassword->setEchoMode(QLineEdit::Password);
         txtUsername = new QLineEdit(LoginDialog);
-        txtUsername->setObjectName(QString::fromUtf8("txtUsername"));
+        txtUsername->setObjectName(QStringLiteral("txtUsername"));
         txtUsername->setGeometry(QRect(80, 20, 161, 23));
         QWidget::setTabOrder(txtUsername, txtPassword);
         QWidget::setTabOrder(txtPassword, buttonBox);
@@ -66,9 +65,9 @@ public:
 
     void retranslateUi(QDialog *LoginDialog)
     {
-        LoginDialog->setWindowTitle(QApplication::translate("LoginDialog", "Dialog", 0, QApplication::UnicodeUTF8));
-        label->setText(QApplication::translate("LoginDialog", "Username", 0, QApplication::UnicodeUTF8));
-        label_2->setText(QApplication::translate("LoginDialog", "Password", 0, QApplication::UnicodeUTF8));
+        LoginDialog->setWindowTitle(QApplication::translate("LoginDialog", "Dialog", 0));
+        label->setText(QApplication::translate("LoginDialog", "Username", 0));
+        label_2->setText(QApplication::translate("LoginDialog", "Password", 0));
     } // retranslateUi
 
 };

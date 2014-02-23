@@ -1,8 +1,6 @@
-#include <QApplication>
 #include "mainwindow.h"
 #include "logindialog.h"
-#include <QDebug>
-
+#include <QApplication>
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
@@ -14,7 +12,7 @@ int main(int argc, char *argv[])
         result = login.exec();
         isAuth = result == LoginDialog::Success || result == LoginDialog::Rejected;
     } while(!isAuth);
-    
+
     if(result == LoginDialog::Success)
     {
         MainWindow w;
