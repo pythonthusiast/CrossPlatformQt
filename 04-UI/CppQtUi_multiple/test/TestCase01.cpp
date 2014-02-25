@@ -1,7 +1,7 @@
 #include <QtTest/QtTest>
 #include <QtSql/QtSql>
-#include "auth.h"
-#include "helper.h"
+#include "../src/auth.h"
+#include "../src/helper.h"
 
 class TestCase01: public QObject
 {

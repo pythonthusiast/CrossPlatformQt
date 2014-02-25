@@ -11,8 +11,8 @@ CONFIG   -= app_bundle
 
 # Input
 HEADERS += \
-    helper.h \
-    auth.h
+    ../src/helper.h \
+    ../src/auth.h
 SOURCES += TestCase01.cpp \
-    helper.cpp \
-    auth.cpp
+    ../src/helper.cpp \
+    ../src/auth.cpp
