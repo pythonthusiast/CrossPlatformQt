@@ -22,5 +22,5 @@ int main(int argc, char *argv[])
 
 
     a.quit();
-    return 0;
+    return -1;
 }

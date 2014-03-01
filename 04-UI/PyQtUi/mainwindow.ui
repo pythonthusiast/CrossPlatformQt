@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>334</width>
+    <height>125</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -22,7 +22,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>400</width>
+     <width>334</width>
      <height>22</height>
     </rect>
    </property>
@@ -49,14 +49,22 @@
    <property name="text">
     <string>E&amp;xit</string>
    </property>
+   <property name="menuRole">
+    <enum>QAction::ApplicationSpecificRole</enum>
+   </property>
   </action>
   <action name="action_About">
    <property name="text">
     <string>&amp;About</string>
    </property>
+   <property name="menuRole">
+    <enum>QAction::AboutRole</enum>
+   </property>
   </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="app.qrc"/>
+ </resources>
  <connections/>
 </ui>

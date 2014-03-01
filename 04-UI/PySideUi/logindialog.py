@@ -29,7 +29,7 @@ class LoginDialog(QDialog, Ui_LoginDialog):
     def onAccept(self):
 
         auth = Auth()
-        if auth.doLogin(self.txtUsername.text(), str(self.txtPassword.text())):
+        if auth.doLogin(self.txtUsername.text(), self.txtPassword.text()):
             self.setResult(self.Success)
         else:
             msgBox = QMessageBox(self)

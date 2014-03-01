@@ -16,7 +16,7 @@ LoginDialog::~LoginDialog()
 
 void LoginDialog::on_buttonBox_accepted()
 {
-    if(ui->txtUsername->text()=="eko")
+    if(ui->txtUsername->text()=="admin")
     {
         setResult(LoginDialog::Success);
     }else{

@@ -49,6 +49,5 @@ bool Helper::dbConnect()
 
 QString Helper::computeHash(QString original)
 {
-
-    return QString(QCryptographicHash::hash(original.toUtf8(),QCryptographicHash::Md5).toHex());
+    return QCryptographicHash::hash(original.toUtf8(),QCryptographicHash::Md5).toHex();
 }

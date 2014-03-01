@@ -1,8 +1,12 @@
+import sip
+sip.setapi("QString", 2)
+
 import sys
-from PyQt4.QtGui import QApplication, QDialog
+from PyQt4.QtGui import QApplication
 from logindialog import LoginDialog
 from mainwindow import MainWindow
 import helper
+
 
 if __name__ == "__main__":
     a = QApplication(sys.argv)

@@ -2,7 +2,6 @@ from PyQt4 import QtCore, QtGui
 from PyQt4.QtGui import QMainWindow, QMessageBox, QPixmap
 from PyQt4.QtGui import QApplication
 from ui_mainwindow import Ui_MainWindow
-import res
 
 try:
     _fromUtf8 = QtCore.QString.fromUtf8

@@ -25,4 +25,5 @@ def dbConnect():
     return db.isOpen()
 
 def computeHash(original):
+    #  return QCryptographicHash.hash(QString(original).toUtf8(), QCryptographicHash.Md5).toHex() #a much more Qt centric
     return QCryptographicHash.hash(original, QCryptographicHash.Md5).toHex()

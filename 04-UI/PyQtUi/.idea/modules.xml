@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/PyQtUi.iml" filepath="$PROJECT_DIR$/.idea/PyQtUi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PySide/.idea/PySide.iml" filepath="$PROJECT_DIR$/../PySide/.idea/PySide.iml" />
     </modules>
   </component>
 </project>

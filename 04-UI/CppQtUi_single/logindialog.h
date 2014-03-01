@@ -14,7 +14,7 @@ class LoginDialog : public QDialog
 public:
     explicit LoginDialog(QWidget *parent = 0);
     ~LoginDialog();
-    enum LoginStatus { Accepted, Rejected, Failed, Success};
+    enum LoginStatus { Success, Failed, Rejected };
 
 private slots:
     void on_buttonBox_accepted();

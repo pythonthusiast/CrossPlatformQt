@@ -1,8 +1,7 @@
 import unittest
-from PySide.QtCore import QCoreApplication
 from auth import Auth
 import helper
-import sys
+
 
 class TestCase01(unittest.TestCase):
     def testConnect(self):
@@ -10,7 +9,7 @@ class TestCase01(unittest.TestCase):
         self.assertTrue(helper.dbConnect())
 
     def testMd5(self):
-        self.assertEqual(helper.computeHash(str("password")),"5f4dcc3b5aa765d61d8327deb882cf99")
+        self.assertEqual(helper.computeHash("password"),"5f4dcc3b5aa765d61d8327deb882cf99")
 
     def testAuth(self):
         helper.dbConnect()

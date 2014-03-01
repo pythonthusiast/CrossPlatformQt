@@ -1,8 +1,7 @@
 from PyQt4 import QtCore, QtGui
-from PyQt4.QtGui import QDialog, QMessageBox, QApplication
+from PyQt4.QtGui import QDialog, QMessageBox
 from ui_logindialog import Ui_LoginDialog
 from auth import Auth
-import helper
 
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
@@ -19,7 +18,7 @@ except AttributeError:
         return QtGui.QApplication.translate(context, text, disambig)
 
 class LoginDialog(QDialog, Ui_LoginDialog):
-    Accepted, Rejected, Failed, Success = range(0,4)
+    Success,Failed,Rejected = range(0,3)
     def __init__(self):
         QDialog.__init__(self)
         self.setupUi(self)
